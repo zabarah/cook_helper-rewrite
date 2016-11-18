@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CookHelper</string>
+    <string name="category_prompt">Choose a categroy</string>
+
+    <string-array name="category_arrays">
+        <item>Italian</item>
+        <item>Greek</item>
+        <item>Chinese</item>
+        <item>Canadian</item>
+        <item>Colombian</item>
+
+    </string-array>
+
+    <string-array name="type_arrays">
+        <item>Main dish</item>
+        <item>starter</item>
+        <item>dessert appetizer</item>
+        <item>drink</item>
+        <item>sauce</item>
+
+    </string-array>
+
+
+    <string name="title_activity_home">home</string>
+    <string name="enterName">Enter Recipe Name...</string>
+</resources>
