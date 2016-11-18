@@ -3,10 +3,22 @@ package com.example.huang.cookhelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    private String selected;
+
+
+
+    public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+            String selected = parent.getItemAtPosition(pos).toString();
+        }
+
+    public void onNothingSelected(AdapterView parent) {
+        // Do nothing.
+    }
 
 
     @Override
@@ -29,3 +41,4 @@ public class Main2Activity extends AppCompatActivity {
     }
     //method to execute arithmetic oper
 }
+
