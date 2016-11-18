@@ -1,5 +1,6 @@
 package com.example.huang.cookhelper;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.ArrayList;
@@ -18,6 +19,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    Button backBtn=(Button)findViewById(R.id.backbtn);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        backBtn.setOnClickListener(new OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, Main3Activity.class));
+            }
+        });
 
 
     }
