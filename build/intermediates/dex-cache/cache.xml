@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c29a3b76a087b675d5b12f0bf4611578566a037e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_9a5bb7f747e88d5a85bad33a33675fe4ea7a696a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_51f8ae6db68b501f5839ba6747e16192fdea1d0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_94bb87e37c65f6136d46a03ad5025d0e5ff5276e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_f0cdacf079886e96703ef9faaf0b4e530e48e19d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_49cf986606746658cd7b9a0953609d05d7dddc0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca782aa3f5bc4bfb04c36fc5705a414393ef032b">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_13e505593cc3dc44890dde56b0965805a2dc7f63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_e28aeb1c79dc48f5287279aefb942a010dc7035e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_96aa33a5df8a901edabd609c495b61929a56a7d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_ddba90cff9e0744cd7c92a35768a51c95ba6bcb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ae68f616d47f240d2c29a3e750a6541b733ac2bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0288d295774a8a7ff881dceca81403733100f66f">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\instant-run_8330f4a4b839eafbb1f6b539d2bf2538994a1072.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_e590a01ace54152027e7163cf00bd6619669465a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\huang\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_68857233e228b75e631d620f660d85ffd4f8ad07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_e01e2e37ff14164c93645bf66fc95b972822a03d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b4d9875e7f77e9a6e04044e6e14aafff07dbf4f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\2016fall\SEG2105C\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6f64a98040e4f4e38448d4136757f918b404cfcd.jar" />
+    </item>
+
+</items>
