@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d68f9daa0bc2432ec97a5f05197b56f41aab76fb">
+        sha1="d6325007cbaadf7ce4deef5e6e9bd7458b54253a">
         <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e7885bef18ce7e80e3826a4d9cb3728d82314393/classes.dex" />
     </item>
     <item
@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d40d6b3899be8e24303d2b31041a3fde8575b232/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0509dc29e61d2ecbdb1f838c1868aa23d13dfbb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d40d6b3899be8e24303d2b31041a3fde8575b232/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="c5378aef515ada350fd01e5eb7e75219b4f29730">
+        sha1="a83e595558eac4e283211a49e1b23b3ffc365d9e">
         <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2fe7ac499984fb7dc676eb42d380f4e3dd53e0d6/classes.dex" />
     </item>
     <item

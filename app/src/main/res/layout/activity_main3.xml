@@ -51,7 +51,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Add Recipe"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:onClick="addbutton (Main3Activity)" />
 
         </LinearLayout>
 
