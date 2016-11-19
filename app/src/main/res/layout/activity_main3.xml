@@ -25,24 +25,13 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editText"
-                style="@style/Widget.AppCompat.EditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:ems="10"
-                android:inputType="textNoSuggestions"
-                android:textAlignment="textStart"
-                android:textColor="@android:color/black"
-                tools:text="@string/enterName" />
-
             <Button
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Search"
+                android:onClick="openSearch"
                 android:textAlignment="center" />
 
             <Button

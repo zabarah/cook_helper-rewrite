@@ -135,7 +135,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/see_recipe"
                 android:layout_weight="1" />
-            
+
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
