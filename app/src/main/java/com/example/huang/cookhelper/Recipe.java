@@ -61,7 +61,11 @@ public class Recipe {
         this.steps=steps;
         this.cal=cal;
         this.cook=cook;
-        this.cook=cook;
+        this.prep=prep;
 
+    }
+
+    public String toString(){
+        return "Name: "+ name + " /n Class:" +classr + "/n Type: " + type +"/n Category:" + category + "/n ingredients: " + ing+ "/n Steps: " +steps+" /n  Calories:" + cal + "/n Cook:" + cook + "/n Preperation"+ prep;
     }
 }
