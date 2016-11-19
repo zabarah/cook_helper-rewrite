@@ -17,4 +17,8 @@ public class Main3Activity extends AppCompatActivity {
         startActivity(search);
 
     }
+    public void add(View view){
+        Intent add=new Intent(this,Main2Activity.class);
+        startActivity(add);
+    }
 }

@@ -127,14 +127,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/backbtn"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="backToMain"/>
 
             <Button
                 android:text="see recipe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/see_recipe"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="viewPage"/>
 
         </LinearLayout>
     </LinearLayout>

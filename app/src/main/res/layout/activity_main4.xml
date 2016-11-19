@@ -34,7 +34,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/backbtn"
                 android:elevation="0dp"
-                style="@style/Widget.AppCompat.Button" />
+                style="@style/Widget.AppCompat.Button"
+                android:onClick="backToSearch"/>
 
             <TextView
                 android:text="View Recipe:"
@@ -307,7 +308,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cancel"
-                android:layout_weight="0.83" />
+                android:layout_weight="0.83"
+                android:onClick="editPage"/>
 
             <Button
                 android:text="Delete Recipe"
@@ -315,7 +317,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/add"
                 android:layout_weight="0.71"
-                style="@style/Widget.AppCompat.Button.Colored" />
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:onClick="deletePage"/>
         </LinearLayout>
 
     </LinearLayout>
