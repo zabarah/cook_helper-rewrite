@@ -25,13 +25,6 @@
             android:layout_height="50dp"
             android:id="@+id/title">
 
-            <Button
-                android:text="back"
-                android:layout_width="72dp"
-                android:layout_height="match_parent"
-                android:id="@+id/backbtn"
-                android:elevation="0dp"
-                style="@style/Widget.AppCompat.Button" />
             <TextView
                 android:text="Find a recipe"
                 android:gravity="center"
@@ -45,8 +38,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:id="@+id/mainSearch">
+            android:id="@+id/mainSearch"
+            android:layout_height="50dp">
 
             <SearchView
                 android:layout_width="wrap_content"
@@ -70,9 +63,9 @@
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_height="40dp"
             android:id="@+id/selectCategory"
-            android:layout_width="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
 
             <TextView
                 android:text="Select Category:"
@@ -101,8 +94,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:id="@+id/selectType">
+            android:id="@+id/selectType"
+            android:layout_height="50dp">
 
             <TextView
                 android:text="Select Type:"
@@ -127,28 +120,13 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:id="@+id/display"
-            android:layout_height="260dp">
-
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/list"
-                android:background="@drawable/border_style"
-                android:padding="10dp"
-                style="@android:style/Widget.DeviceDefault.ExpandableListView" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="45dp">
+            android:layout_height="50dp">
 
             <Button
-                android:text="reset"
+                android:text="back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/reset"
+                android:id="@+id/backbtn"
                 android:layout_weight="1" />
 
             <Button
@@ -157,6 +135,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/see_recipe"
                 android:layout_weight="1" />
+            
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

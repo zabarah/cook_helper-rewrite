@@ -20,7 +20,10 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
+<<<<<<< HEAD
     Button backBtn=(Button)findViewById(R.id.backbtn);
+=======
+>>>>>>> origin/master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
