@@ -2,157 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_d0f1e340e3f7804d03665aeb97672656902c56a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_c94b20fc570be322503e61f0ef287ea42ce5d32c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6da8fe71a138e0c43a27e8f7a7d8e2fb7e9b7857.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6c62a7e82f6e04344fd0313755e488d21e190bc6">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\instant-run_e3327a446b8e2e44aad607ba9d3c78a390d49f96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b05eebeffd7611ccff3c24863834863abd790dd8">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_610b7c8ef0f1672d43ccc56ec9f753a683de24e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_4cdcb723c240889bc65e6ac14409757ec70f0d15.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_a9a465ba9c750a48b264c852ae3b0578e76184f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_f0acc6dad0d28da858eacd413041e0b02e719f69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_dde4e3f9a655ee8db5247ea5338fda726b98a8b9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_157f7d30ebe890eda34e23607eb99784b3c972a5.jar" />
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f1cac2688b74636dd85d1545a3501789fb0d612c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f90322fa64b9cfbf817661647b69cd2c7329e452.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_0d980ebe5fc9e6f0fb4084102dadde6ab286d0b9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_04cca19c5a3839fb758f35c611338b1cfce8a41f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_2b7efee6fd722abfa6623e13f1a34f02438d11b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_389e8a7e984a35352034e6e60c2b427178634f14.jar" />
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_05123712d4f7aab3fb768ff48a4e27e8687c5aca/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9aaec2219c44a9c1bf21474a20b6be587cd0fc25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_121e18fe394ce72bb2065fb0713f17347968d777/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0509dc29e61d2ecbdb1f838c1868aa23d13dfbb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_673037a4da3fb1ea773150274cc5357e3e7a0874/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="952ab38d116b819e489f92867393e27c17cae09e">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2fe7ac499984fb7dc676eb42d380f4e3dd53e0d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_446820830ff0dffb1110a91cffba8a86d83f83a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_65a200f2865b9f5fae6de95c860d49763471c42e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2ba57132f13dcfc2aed3ee8190bbe7cbb9e6eb7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_91ac2d2aa282db3e8a6af30159c3607f133a15ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_45a64b24aef4be630f1dad13ca4dc9b246f08ca6.jar" />
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_9bfef6324dd1607a1153eb9a5efd2143b0358efe/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\huang\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_e554fa368347252c587994b2bbae4be245e10ea1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_faaea8196e2e26c6396810fa57d04d0cbcad79e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4e4cd5f503e17c7795f7430fdee360b4203f80c">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e7885bef18ce7e80e3826a4d9cb3728d82314393/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d40d6b3899be8e24303d2b31041a3fde8575b232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/saifzabarah/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\huang\AndroidStudioProjects\simpleCalculator\Cook-Helper\Cook-Helper\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_68857233e228b75e631d620f660d85ffd4f8ad07.jar" />
+        <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_d1e0052067f71764c5de7117c8884e122a3679c1/classes.dex" />
     </item>
 
 </items>
