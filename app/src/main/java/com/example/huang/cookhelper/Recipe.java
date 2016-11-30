@@ -1,12 +1,13 @@
 package com.example.huang.cookhelper;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by saifzabarah on 2016-11-18.
  */
 
-public class Recipe {
+public class Recipe implements Serializable {
     private String name;
     private String classr;
     private String type;
@@ -17,7 +18,7 @@ public class Recipe {
     private String prep;
     private String steps;
 
-    Recipe(String Name, String classr, String type, String category,ArrayList<Ingredient> ing, String cook,String prep, String cal, String steps){
+    Recipe(String name, String classr, String type, String category,ArrayList<Ingredient> ing, String cook,String prep, String cal, String steps){
         this.name=name;
         this.classr=classr;
         this.type=type;
@@ -26,7 +27,7 @@ public class Recipe {
         this.steps=steps;
         this.cal=cal;
         this.cook=cook;
-        this.cook=cook;
+        this.prep=cook;
 
     }
 
@@ -52,7 +53,8 @@ public class Recipe {
     public String getCook(){return cook;}
     public String getPrep(){return prep;}
 
-    public void setAll(String Name, String classr, String type, String category,ArrayList<Ingredient> ing, String cook,String prep, String cal, String steps){
+
+    public void setAll(String name, String classr, String type, String category,ArrayList<Ingredient> ing, String cook,String prep, String cal, String steps){
         this.name=name;
         this.classr=classr;
         this.type=type;
@@ -61,7 +63,7 @@ public class Recipe {
         this.steps=steps;
         this.cal=cal;
         this.cook=cook;
-        this.cook=cook;
+        this.prep=cook;
 
     }
 }

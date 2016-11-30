@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="952ab38d116b819e489f92867393e27c17cae09e">
+        sha1="a827381ae58f2545b3abc06f1d040e15bfb0c3fd">
         <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2fe7ac499984fb7dc676eb42d380f4e3dd53e0d6/classes.dex" />
     </item>
     <item
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="c4e4cd5f503e17c7795f7430fdee360b4203f80c">
+        sha1="fdea30723f1b7b2d4a76ea0cc7c143bd564e1742">
         <dex dex="/Users/saifzabarah/Documents/Cook-Helper/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e7885bef18ce7e80e3826a4d9cb3728d82314393/classes.dex" />
     </item>
     <item

@@ -111,8 +111,7 @@
                 android:id="@+id/type"
                 android:layout_weight="1"
                 style="@android:style/Widget.Holo.Light.Spinner"
-                android:entries="@array/type_arrays"
-
+                android:spinnerMode="dropdown"
                 />
 
         </LinearLayout>
@@ -136,7 +135,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/see_recipe"
                 android:layout_weight="1"
-                android:onClick="viewPage"/>
+                android:onClick="listPage"/>
 
         </LinearLayout>
     </LinearLayout>

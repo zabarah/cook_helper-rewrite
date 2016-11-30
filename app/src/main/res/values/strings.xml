@@ -3,15 +3,24 @@
     <string name="category_prompt">Choose a categroy</string>
 
     <string-array name="category_arrays">
-        <item>Italian</item>
+        <item>Choose category</item>
         <item>Greek</item>
         <item>Chinese</item>
         <item>Canadian</item>
         <item>Colombian</item>
 
     </string-array>
+    <string-array name="class_arrays">
+    <item>Choose Class</item>
+    <item>Main dish</item>
+    <item>starter</item>
+    <item>dessert appetizer</item>
+    <item>drink</item>
+    <item>sauce</item>
 
+</string-array>
     <string-array name="type_arrays">
+        <item>Choose type</item>
         <item>Main dish</item>
         <item>starter</item>
         <item>dessert appetizer</item>
