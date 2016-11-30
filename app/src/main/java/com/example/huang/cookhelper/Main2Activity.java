@@ -1,6 +1,8 @@
+//this is the "add recipe" activity
 package com.example.huang.cookhelper;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +16,8 @@ import android.widget.TextView;
 import android.widget.LinearLayout.LayoutParams;
 
 import java.util.ArrayList;
+
+import static java.security.AccessController.getContext;
 
 public class Main2Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -198,6 +202,10 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
 
                 //creates the objects
                 Recipe addrecipe = new Recipe((eTextname.getText().toString()), classr.getSelectedItem().toString(), type.getSelectedItem().toString(), category.getSelectedItem().toString(), inglist, (eTextcook.getText().toString()), (eTextprep.getText().toString()), (eTextcal.getText().toString()), (eTextstep.getText().toString()));
+
+                //DB write call
+                writeDb(addrecipe);
+
                 System.out.println(addrecipe.getSteps());
                 Intent move=new Intent(this,Main4Activity.class);
                 startActivity(move);
@@ -229,5 +237,18 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
 
     }
 
-}
+    private boolean writeDb(Recipe addrecipe){
+      FeedReaderDbHelper mDbHelper = new FeedReaderDbHelper(getContext());
+      // Gets the data repository in write mode
+      SQLiteDatabase db = mDbHelper.getWritableDatabase();
 
+      // Create a new map of values, where column names are the keys
+      ContentValues values = new ContentValues();
+      values.put(FeedEntry.COLUMN_NAME_TITLE, title);
+      values.put(FeedEntry.COLUMN_NAME_SUBTITLE, subtitle);
+
+      // Insert the new row, returning the primary key value of the new row
+      long newRowId = db.insert(FeedEntry.TABLE_NAME, null, values);
+    }
+
+}
