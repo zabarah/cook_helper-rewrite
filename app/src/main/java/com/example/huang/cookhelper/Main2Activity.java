@@ -204,7 +204,6 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 Recipe addrecipe = new Recipe((eTextname.getText().toString()), classr.getSelectedItem().toString(), type.getSelectedItem().toString(), category.getSelectedItem().toString(), inglist, (eTextcook.getText().toString()), (eTextprep.getText().toString()), (eTextcal.getText().toString()), (eTextstep.getText().toString()));
 
                 //DB write call
-                writeDb(addrecipe);
 
                 System.out.println(addrecipe.getSteps());
                 Intent move=new Intent(this,Main4Activity.class);
@@ -235,20 +234,6 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
 
             return true;
 
-    }
-
-    private boolean writeDb(Recipe addrecipe){
-      FeedReaderDbHelper mDbHelper = new FeedReaderDbHelper(getContext());
-      // Gets the data repository in write mode
-      SQLiteDatabase db = mDbHelper.getWritableDatabase();
-
-      // Create a new map of values, where column names are the keys
-      ContentValues values = new ContentValues();
-      values.put(FeedEntry.COLUMN_NAME_TITLE, title);
-      values.put(FeedEntry.COLUMN_NAME_SUBTITLE, subtitle);
-
-      // Insert the new row, returning the primary key value of the new row
-      long newRowId = db.insert(FeedEntry.TABLE_NAME, null, values);
     }
 
 }

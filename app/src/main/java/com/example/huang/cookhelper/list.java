@@ -1,5 +1,6 @@
 package com.example.huang.cookhelper;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//for DB
+import java.util.List;
+import android.app.ListActivity;
+
 public class list extends AppCompatActivity {
 
 
@@ -19,6 +24,9 @@ public class list extends AppCompatActivity {
     private ArrayAdapter<String> listAdapter ;
     private ArrayList<Recipe> recilist;
     private String category,require,foodtype,selectedItem;
+
+    //for DB
+    private CommentsDataSource datasource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,22 +52,31 @@ public class list extends AppCompatActivity {
         //
         //should be
         //use Kiven search method
-        //
+        datasource = new CommentsDataSource(this);
+        datasource.open();
+        final List<Comment> values = datasource.getAllComments();
+        final ArrayAdapter<Comment> listAdapter = new ArrayAdapter<Comment>(this,
+                                android.R.layout.simple_list_item_1, values);
+
+        /* replaced by DB adapter
         final String[] list = new String[recilist.size()];
         for(int i=0;i<recilist.size();i++){
             list[i]=recilist.get(i).getName();
         }
         listAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, list);
+        */
         recipeList.setAdapter(listAdapter);
+
         recipeList.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
 
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // TODO Auto-generated method stub
-                Toast.makeText(list.this, list[position], Toast.LENGTH_SHORT).show();
-                selectedItem=(String) recipeList.getItemAtPosition(position);
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Comment item = datasource.getRecipeAtPosition(i);
 
+                Intent intent = new Intent(list.this,Main4Activity.class);
+                //based on item add info to intent
+                startActivity(intent);
             }
         });
 
@@ -74,4 +91,17 @@ public class list extends AppCompatActivity {
         Intent viewPage=new Intent(this,MainActivity.class);
         startActivity(viewPage);
     }
+
+    @Override
+        protected void onResume() {
+                datasource.open();
+                super.onResume();
+        }
+
+        @Override
+        protected void onPause() {
+                datasource.close();
+                super.onPause();
+        }
+
 }

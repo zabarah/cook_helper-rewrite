@@ -73,4 +73,18 @@ public class CommentsDataSource {
                 comment.setComment(cursor.getString(1));
                 return comment;
         }
+
+        public Comment getRecipeAtPosition(int position){
+                List<Comment> comments = new ArrayList<Comment>();
+
+                Cursor cursor = database.query(MySQLiteHelper.TABLE_COMMENTS,
+                        allColumns, null, null, null, null, null);
+
+                cursor.moveToFirst();
+
+                Comment recipe = cursorToComment(cursor);
+                // make sure to close the cursor
+                cursor.close();
+                return recipe;
+        }
 }
