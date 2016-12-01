@@ -55,36 +55,36 @@ public class RecipesDataSource {
         }
 
         public void deleteRecipe(Recipe recipe) {
-                String id = recipe.getName();
-                System.out.println("Recipe deleted with id: " + id);
+                String name = recipe.getName();
+                System.out.println("Recipe deleted with id: " + name);
                 database.delete(MySQLiteHelper.TABLE_RECIPES, MySQLiteHelper.COLUMN_NAME
-                                + " = " + id, null);
+                                + " = " + name, null);
         }
 
         public List<Recipe> getAllRecipes() {
-                List<Recipe> Recipes = new ArrayList<Recipe>();
+                List<Recipe> recipes = new ArrayList<>();
 
                 Cursor cursor = database.query(MySQLiteHelper.TABLE_RECIPES,
                                 allColumns, null, null, null, null, null);
 
                 cursor.moveToFirst();
                 while (!cursor.isAfterLast()) {
-                        Recipe Recipe = cursorToRecipe(cursor);
-                        Recipes.add(Recipe);
+                        Recipe recipe = cursorToRecipe(cursor);
+                        recipes.add(recipe);
                         cursor.moveToNext();
                 }
                 // make sure to close the cursor
                 cursor.close();
-                return Recipes;
+                return recipes;
         }
 
         private Recipe cursorToRecipe(Cursor cursor) {
-                Recipe Recipe = new Recipe();
+                Recipe recipe = new Recipe();
                 /* NEED TO WRITE RETURN METHOD
                 Recipe.setName(cursor.getLong(0));
                 Recipe.setRecipe(cursor.getString(1));
                 */
-                return Recipe;
+                return recipe;
         }
 
         public Recipe getRecipeAtPosition(int position){

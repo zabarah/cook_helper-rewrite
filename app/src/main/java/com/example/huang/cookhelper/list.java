@@ -50,8 +50,8 @@ public class list extends AppCompatActivity {
         //use Kiven search method
         datasource = new RecipesDataSource(this);
         datasource.open();
-        final List<Comment> values = datasource.getAllComments();
-        final ArrayAdapter<Comment> listAdapter = new ArrayAdapter<Comment>(this,
+        final List<Recipe> values = datasource.getAllRecipes();
+        final ArrayAdapter<Recipe> listAdapter = new ArrayAdapter<>(this,
                                 android.R.layout.simple_list_item_1, values);
 
         /* replaced by DB adapter
@@ -68,7 +68,7 @@ public class list extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Comment item = datasource.getRecipeAtPosition(i);
+                Recipe item = datasource.getRecipeAtPosition(i);
 
                 Intent intent = new Intent(list.this,Main4Activity.class);
                 //based on item add info to intent
