@@ -2,8 +2,6 @@
 package com.example.huang.cookhelper;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,8 +14,6 @@ import android.widget.TextView;
 import android.widget.LinearLayout.LayoutParams;
 
 import java.util.ArrayList;
-
-import static java.security.AccessController.getContext;
 
 public class Main2Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 

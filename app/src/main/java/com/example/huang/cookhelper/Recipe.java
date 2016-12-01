@@ -18,6 +18,10 @@ public class Recipe implements Serializable {
     private String prep;
     private String steps;
 
+    //init blanks
+    Recipe(){
+    }
+
     Recipe(String name, String classr, String type, String category,ArrayList<Ingredient> ing, String cook,String prep, String cal, String steps){
         this.name=name;
         this.classr=classr;

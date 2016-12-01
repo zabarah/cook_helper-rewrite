@@ -1,0 +1,92 @@
+package com.example.huang.cookhelper;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+
+public class RecipesDataSource {
+
+        // Database fields
+        private SQLiteDatabase database;
+        private MySQLiteHelper dbHelper;
+        private String[] allColumns = { MySQLiteHelper.COLUMN_NAME,
+                        MySQLiteHelper.COLUMN_NAME };
+
+        public RecipesDataSource(Context context) {
+                dbHelper = new MySQLiteHelper(context);
+        }
+
+        public void open() throws SQLException {
+                database = dbHelper.getWritableDatabase();
+        }
+
+        public void close() {
+                dbHelper.close();
+        }
+
+        public Recipe createRecipe(Recipe recipe) {
+                ContentValues values = new ContentValues();
+                values.put(MySQLiteHelper.COLUMN_RECIPE, recipe.getName());
+                long insertId = database.insert(MySQLiteHelper.TABLE_RECIPES, null,
+                                values);
+                Cursor cursor = database.query(MySQLiteHelper.TABLE_RECIPES,
+                                allColumns, MySQLiteHelper.COLUMN_NAME + " = " + insertId, null,
+                                null, null, null);
+                cursor.moveToFirst();
+                Recipe newRecipe = cursorToRecipe(cursor);
+                cursor.close();
+                return newRecipe;
+        }
+
+        public void deleteRecipe(Recipe recipe) {
+                String id = recipe.getName();
+                System.out.println("Recipe deleted with id: " + id);
+                database.delete(MySQLiteHelper.TABLE_RECIPES, MySQLiteHelper.COLUMN_NAME
+                                + " = " + id, null);
+        }
+
+        public List<Recipe> getAllRecipes() {
+                List<Recipe> Recipes = new ArrayList<Recipe>();
+
+                Cursor cursor = database.query(MySQLiteHelper.TABLE_RECIPES,
+                                allColumns, null, null, null, null, null);
+
+                cursor.moveToFirst();
+                while (!cursor.isAfterLast()) {
+                        Recipe Recipe = cursorToRecipe(cursor);
+                        Recipes.add(Recipe);
+                        cursor.moveToNext();
+                }
+                // make sure to close the cursor
+                cursor.close();
+                return Recipes;
+        }
+
+        private Recipe cursorToRecipe(Cursor cursor) {
+                Recipe Recipe = new Recipe();
+                /* NEED TO WRITE RETURN METHOD
+                Recipe.setName(cursor.getLong(0));
+                Recipe.setRecipe(cursor.getString(1));
+                */
+                return Recipe;
+        }
+
+        public Recipe getRecipeAtPosition(int position){
+                List<Recipe> Recipes = new ArrayList<Recipe>();
+
+                Cursor cursor = database.query(MySQLiteHelper.TABLE_RECIPES,
+                        allColumns, null, null, null, null, null);
+
+                cursor.moveToFirst();
+
+                Recipe recipe = cursorToRecipe(cursor);
+                // make sure to close the cursor
+                cursor.close();
+                return recipe;
+        }
+}

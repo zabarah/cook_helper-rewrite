@@ -1,6 +1,5 @@
 package com.example.huang.cookhelper;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,14 +7,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 //for DB
 import java.util.List;
-import android.app.ListActivity;
 
 public class list extends AppCompatActivity {
 
@@ -26,7 +22,7 @@ public class list extends AppCompatActivity {
     private String category,require,foodtype,selectedItem;
 
     //for DB
-    private CommentsDataSource datasource;
+    private RecipesDataSource datasource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +48,7 @@ public class list extends AppCompatActivity {
         //
         //should be
         //use Kiven search method
-        datasource = new CommentsDataSource(this);
+        datasource = new RecipesDataSource(this);
         datasource.open();
         final List<Comment> values = datasource.getAllComments();
         final ArrayAdapter<Comment> listAdapter = new ArrayAdapter<Comment>(this,
