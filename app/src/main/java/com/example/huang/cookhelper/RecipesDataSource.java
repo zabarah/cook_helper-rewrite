@@ -31,7 +31,18 @@ public class RecipesDataSource {
 
         public Recipe createRecipe(Recipe recipe) {
                 ContentValues values = new ContentValues();
-                values.put(MySQLiteHelper.COLUMN_RECIPE, recipe.getName());
+
+                //a bunch of puts for all the columns
+                values.put(MySQLiteHelper.COLUMN_NAME, recipe.getName());
+                values.put(MySQLiteHelper.COLUMN_CLASSR, recipe.getClassr());
+                values.put(MySQLiteHelper.COLUMN_TYPE, recipe.getType());
+                values.put(MySQLiteHelper.COLUMN_CATEGORY, recipe.getCategory());
+                values.put(MySQLiteHelper.COLUMN_ING, android.text.TextUtils.join(",", recipe.getIng()));
+                values.put(MySQLiteHelper.COLUMN_CAL, recipe.getCal());
+                values.put(MySQLiteHelper.COLUMN_COOK, recipe.getCook());
+                values.put(MySQLiteHelper.COLUMN_PREP, recipe.getPrep());
+                values.put(MySQLiteHelper.COLUMN_STEPS, recipe.getSteps());
+
                 long insertId = database.insert(MySQLiteHelper.TABLE_RECIPES, null,
                                 values);
                 Cursor cursor = database.query(MySQLiteHelper.TABLE_RECIPES,

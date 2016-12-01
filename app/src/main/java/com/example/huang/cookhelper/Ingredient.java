@@ -32,6 +32,10 @@ public class Ingredient implements Serializable {
         this.quantity=quantity;
     }
 
+    public String toString(){
+        return name + " " + quantity + " " + mestype;
+    }
+
 
 }
 
