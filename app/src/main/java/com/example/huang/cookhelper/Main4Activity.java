@@ -47,7 +47,7 @@ public class Main4Activity extends AppCompatActivity {
         //steps.setText(recipe.getSteps();
 
         //Need to implement real ingredient inside of this one
-        ingredients= new ArrayList<Ingredient>();
+        ingredients= new ArrayList<>();
         for(int i=0;i<7;i++){
             Ingredient rr=new Ingredient("dd",9,"ss");
             ingredients.add(rr);

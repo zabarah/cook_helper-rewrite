@@ -202,6 +202,8 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 Recipe addrecipe = new Recipe((eTextname.getText().toString()), classr.getSelectedItem().toString(), type.getSelectedItem().toString(), category.getSelectedItem().toString(), inglist, (eTextcook.getText().toString()), (eTextprep.getText().toString()), (eTextcal.getText().toString()), (eTextstep.getText().toString()));
 
                 //DB write call
+                dataSource = new RecipesDataSource(this);
+                dataSource.open();
                 dataSource.createRecipe(addrecipe);
 
                 System.out.println(addrecipe.getSteps());
