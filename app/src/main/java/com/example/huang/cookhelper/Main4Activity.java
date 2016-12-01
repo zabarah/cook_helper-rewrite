@@ -1,3 +1,5 @@
+//this is the view recipe activity
+
 package com.example.huang.cookhelper;
 
 import android.content.Intent;

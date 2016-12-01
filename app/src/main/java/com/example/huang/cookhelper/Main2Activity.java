@@ -25,6 +25,8 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
     private boolean preverror=false;
     private TextView textView;
 
+    //for DB
+    private RecipesDataSource dataSource;
 
 
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
@@ -200,6 +202,7 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 Recipe addrecipe = new Recipe((eTextname.getText().toString()), classr.getSelectedItem().toString(), type.getSelectedItem().toString(), category.getSelectedItem().toString(), inglist, (eTextcook.getText().toString()), (eTextprep.getText().toString()), (eTextcal.getText().toString()), (eTextstep.getText().toString()));
 
                 //DB write call
+                dataSource.createRecipe(addrecipe);
 
                 System.out.println(addrecipe.getSteps());
                 Intent move=new Intent(this,Main4Activity.class);
